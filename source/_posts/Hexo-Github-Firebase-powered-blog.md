@@ -181,3 +181,14 @@ jobs:
 Workflow执行完毕之后, Firebase上的站点就更新了.
 
 后续的工作流就是用hexo写文章, 写完之后提交commit到Github, 然后会自动触发Action, 从而自动更新Firebase托管的页面.
+
+## TBD
+
+- 添加自定义域名
+- 修改默认JQuery的URL
+- Hexo工程配置: 网站域名
+- Hexo工程配置: 图片目录
+- Hexo工程配置: 抬头和页脚
+- Hexo工程配置: 分类Tags
+- Hexo工程配置: 字体和主题
+- Hexo工程配置: 留言板
