@@ -49,27 +49,27 @@ https_proxy=http://PROXY_IP:PORT/ npm install
 
 登录到`Firebase`[控制台](https://console.firebase.google.com/), 点击`创建项目`:
 
-![](01.png)
+![创建项目](01.png)
 
 输入项目名称, 然后点击继续:
 
-![](02.png)
+![输入项目名称](02.png)
 
 设置GA:
 
-![](03.png)
+![设置GA](03.png)
 
-![](04.png)
+![设置GA](04.png)
 
 ## 安装配置firebase cli
 
-### 安装:
+### 安装
 
 ```bash
 https_proxy=http://PROXY_IP:PORT npm install -g firebase-tools
 ```
 
-### 登录:
+### 登录
 
 ```bash
 https_proxy=http://PROXY_IP:PORT firebase login --no-localhost
@@ -77,7 +77,7 @@ https_proxy=http://PROXY_IP:PORT firebase login --no-localhost
 
 此步会输出一个网址, 复制这个URL, 在浏览器中打开, 登录google账号, 获取一段授权代码, 并粘贴到shell. 成功后会显示`Success! Logged in as xxx@gmail.com`
 
-### 初始化:
+### 初始化
 
 ```bash
 https_proxy=http://PROXY_IP:PORT firebase init
@@ -85,20 +85,20 @@ https_proxy=http://PROXY_IP:PORT firebase init
 
 这一步选择`Hosting`, space键选中, 回车键确认:
 
-![](05.png)
+![选择Hosting](05.png)
 
 项目设置, 选择使用现有的项目, 然后选中之前在firebase控制台创建的项目:
 
-![](06.png)
-![](07.png)
+![项目选择](06.png)
+![选中之前创建的项目](07.png)
 
 托管设置, 选择默认值即可, 分别为`public`和`No`.
 
-![](08.png)
+![托管设置](08.png)
 
 这一步执行完之后, 会多出两个文件`.firebaserc`和`firebase.json`, 提交他们.
 
-### 测试部署:
+### 测试部署
 
 ```bash
 https_proxy=http://PROXY_IP:PORT firebase deploy
@@ -106,7 +106,7 @@ https_proxy=http://PROXY_IP:PORT firebase deploy
 
 结果如图:
 
-![](09.png)
+![部署到Firebase](09.png)
 
 此时打开[https://bitaichiblog.web.app](https://bitaichiblog.web.app)查看效果.
 
@@ -117,33 +117,35 @@ https_proxy=http://PROXY_IP:PORT firebase deploy
 这一步配置github的action, 使得我们每次对maste分支的提交都会自动更新到firebase上.
 
 Firebase的部署需要一个`Token`, 首先让我们获取它, 在工程根目录执行:
+
 ```bash
 https_proxy=http://PROXY_IP:PORT firebase login:ci --no-localhost
 ```
 
 和上面的登录步骤很像, 此时控制台会打印出一个URL, 复制它, 然后在浏览器中打开, 登录google账号, 获取授权代码, 然后粘贴回控制台. 最后执行成功后, 控制台打印出下一步需要的Token, 记下来. 执行截图如下:
 
-![](12.png)
+![获取CI token](12.png)
 
 Github项目页面点击`Settings` - `Secrets` - `New secret`
 
-![](13.png)
+![设置secret](13.png)
 
 Name填入`FIREBASE_TOKEN`, Value为刚才获取到的token值:
 
-![](14.png)
+![设置FIREBASE_TOKEN](14.png)
 
 ### 创建Action
 
 首先创建一个空白的`Action`:
 
-![](10.png)
+![创建Action](10.png)
 
 然后, 将文件命名为`deploy2firebase.yml`:
 
-![](11.png)
+![deploy2firebase.yml](11.png)
 
 复制粘贴如下代码, 然后点击右上角的`Start commit`提交代码.
+
 ```yaml
 name: Deploy to Firebase
 
@@ -174,7 +176,7 @@ jobs:
 
 提交后, 在`Action` - `Workflows` 下点击 `Deploy to Firebase`, 查看执行状态. 具体job的执行状态可以点击job名字进去查看:
 
-![](15.png)
+![Actions](15.png)
 
 Workflow执行完毕之后, Firebase上的站点就更新了.
 
