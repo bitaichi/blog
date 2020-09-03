@@ -182,10 +182,65 @@ Workflow执行完毕之后, Firebase上的站点就更新了.
 
 后续的工作流就是用hexo写文章, 写完之后提交commit到Github, 然后会自动触发Action, 从而自动更新Firebase托管的页面.
 
-## TBD
+## 继续优化
 
-- 添加自定义域名
-- 修改默认JQuery的URL
+### 添加自定义域名
+
+首先要在DNS的解析商处把现有域名的记录清空.
+
+然后, 进入Firebase控制台 - `开发` - `Hosting` - `添加自定义网域`.
+
+第一步, 输入要添加的域名, 格式为`xxx.com`, 不加www. 不要勾选重定向, 然后点继续;
+
+第二步, 复制生成的TXT记录并添加到DNS解析, 然后点击验证;
+
+第三步, 选择快速设置, 然后将页面提示的两条A记录添加到域名解析.
+
+完成后等待SSL证书预配, 大概需要几个小时到24小时. 这期间访问此域名的时候, 浏览器会提示证书无效.
+
+等SSL证书预配完成后, `Hosting`页面的状态会变为`已关联`.
+
+在此期间, 可以添加一下www记录, 步骤如下:
+
+还是点击`添加自定义网域`, 这一次第一步中填写`www.xxx.com`, 并且勾选重定向, 重定向填写不带www的`xxx.com`, 点继续.
+
+这次会直接跳过第二步到第三步, 同样的方法添加DNS解析.
+
+### 安装NEXT主题
+
+Hexo最火的主题是Next, 安装之
+
+本文安装的Hexo为`^5.0.0`, 支持用npm安装主题. 项目根目录下运行
+
+```bash
+npm install hexo-theme-next --save
+```
+
+然后创建主题的配置文件:
+
+```bash
+cp node_modules/hexo-theme-next/_config.yml _config.next.yml
+```
+
+
+然后修改`_config.yml`:
+
+```yaml
+theme: next
+```
+
+### 修改默认JQuery的URL
+
+
+
+
+
+
+
+
+
+
+
 - Hexo工程配置: 网站域名
 - Hexo工程配置: 图片目录
 - Hexo工程配置: 抬头和页脚
