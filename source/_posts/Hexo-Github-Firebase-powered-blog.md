@@ -232,18 +232,12 @@ theme: next
 ### 修改默认JQuery的URL
 
 
-
-
-
-
-
-
-
-
-
-- Hexo工程配置: 网站域名
 - Hexo工程配置: 图片目录
 - Hexo工程配置: 抬头和页脚
 - Hexo工程配置: 分类Tags
-- Hexo工程配置: 字体和主题
+- Hexo工程配置: 字体
 - Hexo工程配置: 留言板
+- Hexo工程配置: favicons
+- Hexo工程配置: Custom Logo
+- Hexo工程配置: creative_commons
+- 
