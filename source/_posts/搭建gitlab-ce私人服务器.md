@@ -65,12 +65,12 @@ gitlab:
 
 配置详解:
 
-- image: 'gitlab/gitlab-ce:latest' - 使用的镜像为官方的gitlab-ce
-- external_url 'http://192.168.100.105:6510' - 外部访问地址和端口
-- gitlab_rails['gitlab_shell_ssh_port'] = 6522 - 外部SSH端口
-- '6510:6510' - web端口映射
-- '6522:22' - SSH端口映射
-- volumes: - 文件夹映射
+- `image: 'gitlab/gitlab-ce:latest'` - 使用的镜像为官方的gitlab-ce
+- `external_url 'http://192.168.100.105:6510'` - 外部访问地址和端口
+- `gitlab_rails['gitlab_shell_ssh_port'] = 6522` - 外部SSH端口
+- `'6510:6510'` - web端口映射
+- `'6522:22'` - SSH端口映射
+- `volumes:` - 文件夹映射
 
 启动容器:
 
