@@ -3,7 +3,6 @@ title: Shell 美化
 date: 2020-09-05 06:57:55
 tags:
 ---
-# Shell 美化
 
 ## 使用Powerline
 <!--more-->

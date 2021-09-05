@@ -3,7 +3,6 @@ title: debian deb packages dependencies analysis
 date: 2020-09-05 06:36:38
 tags:
 ---
-# 分析deb包依赖
 
 ## 使用`apt-rdepends`
 <!--more-->

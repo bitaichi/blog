@@ -4,6 +4,8 @@ date: 2020-09-02 22:22:46
 tags:
 ---
 
+[2021-09-05 更新] 博客已迁移至Cloudflare Pages.
+
 此博客使用HEXO搭建, 代码托管在github, 网站托管在Firebase平台的免费计划, 利用Github的Action自动更新Firebase的托管网站.
 <!--more-->
 ## 开发环境

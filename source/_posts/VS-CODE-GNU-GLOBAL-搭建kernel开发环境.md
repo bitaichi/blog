@@ -3,7 +3,6 @@ title: VS CODE + GNU GLOBAL 搭建kernel开发环境
 date: 2020-09-05 07:15:54
 tags:
 ---
-# VS CODE + GNU GLOBAL 搭建kernel开发环境
 
 VS CODE 是当今最流行的IDE之一, 其丰富的插件功能使得VS CODE可以面向多种应用场景.
 <!--more-->

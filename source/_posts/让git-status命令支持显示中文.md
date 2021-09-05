@@ -5,13 +5,13 @@ tags:
 ---
 
 执行下面的命令
-<!--more-->
+
 ```bash
 git config --global core.quotepath false
 ```
 
 然后就可以显示中文了
-
+<!--more-->
 ```bash
 git status
 ```
