@@ -4,6 +4,8 @@ date: 2020-09-05 07:15:54
 tags:
 ---
 
+**2021年9月5日更新: 此方法已不用, 新方法见[此贴](https://bitaichi.com/2021/09/05/VS-Code-%E6%90%AD%E5%BB%BA-Linux-Kernel-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-2021%E7%89%88/)**
+
 VS CODE 是当今最流行的IDE之一, 其丰富的插件功能使得VS CODE可以面向多种应用场景.
 
 本文介绍一种利用VS CODE的`C/C++ Intellisense`插件 + GNU Global的tags系统搭建的Linux kernel开发环境.
