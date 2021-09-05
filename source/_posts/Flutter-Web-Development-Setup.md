@@ -7,7 +7,7 @@ tags:
 操作系统为Debian Buster
 
 ## 安装Android Studio
-
+<!--more-->
 首先安装一些依赖包:
 
 ```bash

@@ -6,7 +6,7 @@ tags:
 # 分析deb包依赖
 
 ## 使用`apt-rdepends`
-
+<!--more-->
 输出.dot文件
 
 然后利用图形化工具转换成png文件

@@ -5,7 +5,7 @@ tags:
 ---
 
 首先暂停当前正在执行的`git am`:
-
+<!--more-->
 ```bash
 git am --abort
 ```

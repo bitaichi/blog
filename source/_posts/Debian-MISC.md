@@ -5,7 +5,7 @@ tags:
 ---
 
 - popcon 流行度: popcon 数据被用来客观地衡量每个包的流行度
-
+<!--more-->
 ## Refer
 
 - [Debian 参考手册](https://www.debian.org/doc/manuals/debian-reference/index.zh-cn.html)

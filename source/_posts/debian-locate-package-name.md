@@ -8,7 +8,7 @@ tags:
 ```bash
 dpkg -S /usr/bin/passwd
 ```
-
+<!--more-->
 ## 使用 `dpkg-query`
 
 ```bash

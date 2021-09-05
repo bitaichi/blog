@@ -6,7 +6,7 @@ tags:
 # Shell 美化
 
 ## 使用Powerline
-
+<!--more-->
 首先安装
 
 ```bash

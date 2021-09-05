@@ -6,7 +6,7 @@ tags:
 ## How to use debian snapshot repo
 
 refer to [Official snapshot website](https://snapshot.debian.org/)
-
+<!--more-->
 replace apt source list with
 
 ```bash

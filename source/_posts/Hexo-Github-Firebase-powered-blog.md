@@ -5,7 +5,7 @@ tags:
 ---
 
 此博客使用HEXO搭建, 代码托管在github, 网站托管在Firebase平台的免费计划, 利用Github的Action自动更新Firebase的托管网站.
-
+<!--more-->
 ## 开发环境
 
 本文的开发环境为一台`Debian Buster`虚拟机. 鉴于国内网络无法访问`Firebase`平台, 需要准备一个代理.

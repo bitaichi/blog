@@ -5,7 +5,7 @@ tags:
 ---
 
 KDE Plasma桌面环境下的中文输入配置的文章不太多, 这里总结一下Debian 10 Buster上的KDE的中文输入法配置, 其他发行版的KDE上的配置方式也应该差不多
-
+<!--more-->
 ## 配置locales
 
 输入命令配置中文locales:

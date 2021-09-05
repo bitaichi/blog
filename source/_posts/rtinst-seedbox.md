@@ -6,7 +6,7 @@ tags:
 rutorrent install scripts [rtinst](https://github.com/arakasi72/rtinst)
 
 ## setup VPS
-
+<!--more-->
 Install ubuntu 18.04
 
 Install updates.

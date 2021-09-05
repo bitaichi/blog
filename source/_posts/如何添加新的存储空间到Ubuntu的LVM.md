@@ -7,7 +7,7 @@ tags:
 ## 创建 PV
 
 首先，对新添加的存储空间做分区, 根据自己情况选择合适的/dev/sdx设备：
-
+<!--more-->
 ```bash
 sudo fdisk /dev/sda
 ```

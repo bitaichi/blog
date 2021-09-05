@@ -5,7 +5,7 @@ tags:
 ---
 
 Git 代理的设置取决于要操作的仓库的协议类型.
-
+<!--more-->
 ## 使用 HTTP/HTTPS/FTP 协议的 repo
 
 编辑`~/.bashrc`文件:

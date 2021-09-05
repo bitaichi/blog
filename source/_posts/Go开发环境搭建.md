@@ -7,7 +7,7 @@ tags:
 ## WINDOWS
 
 Go version: 1.14.2
-
+<!--more-->
 ### 安装GO
 
 在 [Downloads](https://golang.org/dl/) 下载MSI安装程序.

@@ -7,7 +7,7 @@ tags:
 
 - 用来访问docker registry的, 通常用来下载docker镜像, 例如访问`hub.docker.com`.
 - 容器内使用的代理.
-
+<!--more-->
 ## docker registry 代理
 
 参考 [HTTP/HTTPS proxy](https://docs.docker.com/config/daemon/systemd/#httphttps-proxy)

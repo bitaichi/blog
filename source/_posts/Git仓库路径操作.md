@@ -7,7 +7,7 @@ tags:
 ## 显示当前仓库的根目录的绝对路径
 
 After 1.7.x:
-
+<!--more-->
 ```bash
 git rev-parse --show-toplevel
 ```

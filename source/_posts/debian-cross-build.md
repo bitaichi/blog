@@ -6,7 +6,7 @@ tags:
 ## 方法
 
 主要是通过安装`crossbuild-essential-arch`来实现
-
+<!--more-->
 ```bash
 sudo apt install crossbuild-essential-arm64
 ```

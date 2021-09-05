@@ -8,6 +8,7 @@ tags:
 ```bash
 nm -gD yourLib.so
 ```
+<!--more-->
 
 ## 如果目标so文件是C++库, 添加`-C`选项
 

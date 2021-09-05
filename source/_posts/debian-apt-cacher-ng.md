@@ -9,7 +9,7 @@ tags:
 If you just want to use the current running apt-cacher-ng server, please just refer to the [Use on client side](#use-on-client-side)
 
 ## Setup apt-cacher-ng server
-
+<!--more-->
 We use the docker container to run the apt-cacher-ng service, so first need to install docker, please refer to the docker installation guide of your Linux distro.
 
 Then pull below image:

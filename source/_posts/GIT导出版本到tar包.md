@@ -5,7 +5,7 @@ tags:
 ---
 
 使用`git archive`命令
-
+<!--more-->
 ## 导出commit或者tag到tar包
 
 ```bash

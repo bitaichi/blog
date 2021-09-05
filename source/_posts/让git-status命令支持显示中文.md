@@ -5,7 +5,7 @@ tags:
 ---
 
 执行下面的命令
-
+<!--more-->
 ```bash
 git config --global core.quotepath false
 ```

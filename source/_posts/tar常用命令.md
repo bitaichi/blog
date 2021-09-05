@@ -7,7 +7,7 @@ tags:
 ## 压缩
 
 ### GZIP (tar.gz, tgz)
-
+<!--more-->
 ```bash
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file /path2 --exclude=/path3
 ```
