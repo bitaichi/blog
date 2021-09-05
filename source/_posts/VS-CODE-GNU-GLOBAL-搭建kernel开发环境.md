@@ -5,9 +5,9 @@ tags:
 ---
 
 VS CODE 是当今最流行的IDE之一, 其丰富的插件功能使得VS CODE可以面向多种应用场景.
-<!--more-->
-本文介绍一种利用VS CODE的`C/C++ Intellisense`插件 + GNU Global的tags系统搭建的Linux kernel开发环境.
 
+本文介绍一种利用VS CODE的`C/C++ Intellisense`插件 + GNU Global的tags系统搭建的Linux kernel开发环境.
+<!--more-->
 [GNU Global](https://www.gnu.org/software/global/)是GNU的一个开源项目, 他是一个tagging系统; [C/C++ Intellisense](https://marketplace.visualstudio.com/items?itemName=austin.code-gnu-global)是利用这一开源tagging工具的VS CODE插件.
 
 下面是搭建步骤
